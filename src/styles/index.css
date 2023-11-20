@@ -1,3 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(238, 235, 235);
+  }
+  
+  
+  .trafficLights {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .redLight,
+  .yellowLight,
+  .greenLight {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  
+  .redLight {
+    background-color: red;
+  }
+  
+  .greenLight {
+    background-color: green;
+  }
+  
+  .yellowLight {
+    background-color: yellow;
+  }
+  
+  .selected {
+    box-shadow: 0 0 30px 5px white;
+  }
+
+
+
+
+
 
 /* 
 
